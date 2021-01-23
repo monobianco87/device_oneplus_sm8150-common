@@ -332,7 +332,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.oneplus_msmnile
+    android.hardware.lights-service.qti
 
 # Media
 
@@ -423,8 +423,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl.oneplus_msmnile \
-    android.hardware.sensors@1.0-service.oneplus_msmnile \
+    android.hardware.sensors@2.0-service.multihal \
     libsensorndkbridge
 
 PRODUCT_COPY_FILES += \
