@@ -198,7 +198,7 @@ PRODUCT_PACKAGES += \
     ftm_power_config.sh \
     init.class_main.sh \
     init.crda.sh \
-    init.devicesettings.rc
+    init.devicesettings.rc \
     init.mdm.sh \
     init.oem.debug.rc \
     init.oem.engineermode.sh \
@@ -217,7 +217,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
-    init.qti.chg_policy.sh
+    init.qti.chg_policy.sh \
     init.qti.fm.sh \
     init.qti.ims.sh \
     init.recovery.qcom.rc \
