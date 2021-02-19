@@ -480,6 +480,10 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
+# Overlays
+PRODUCT_PACKAGES += \
+    NoInjection
+
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
